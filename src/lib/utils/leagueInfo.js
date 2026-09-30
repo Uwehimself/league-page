@@ -4,11 +4,17 @@ export const leagueName = "SG Fantasy Football";
 export const dues = 100; 
 export const dynasty = true; 
 export const enableBlog = false;
-export const startYear = 2023; 
+export const startYear = 2023; // Deine Liga startete 2023
 
-// MANUELLE HISTORIE: Verbindet die alten Saisons, wenn Sleeper es nicht automatisch tut
-export const historicalSeasonID = "1386063079745257472"; // Lass hier deine aktuelle ID stehen
+// HIER DIE KETTE MANUELL EINTRAGEN:
+// Das zwingt die App, die alten Saisons direkt anzusteuern und umgeht den Absturz.
+export const historicalSeasonID = "1386063079745257472"; // Falls das Template eine alte Version nutzt
 
+// Falls das nicht reicht, liest das neuere Template dieses Array aus. 
+// Trage hier, falls vorhanden, deine alten IDs ein. Wenn du sie nicht weißt, lass es erst so:
+export const seasonIDs = [
+  { year: 2026, id: "1386063079745257472" }
+];
 
 /*   STEP 2   */
 export const homepageText = `
