@@ -1,10 +1,14 @@
 /*   STEP 1   */
-export const leagueID = "1386063079745257472"; // your league ID
-export const leagueName = "SG Fantasy Football"; // your league name
-export const dues = 100; // (optional) used in template constitution page
-export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
-export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
-export const startYear = 2023;
+export const leagueID = "1386063079745257472"; // Deine aktuelle 2026er ID
+export const leagueName = "SG Fantasy Football"; 
+export const dues = 100; 
+export const dynasty = true; 
+export const enableBlog = false;
+export const startYear = 2023; 
+
+// MANUELLE HISTORIE: Verbindet die alten Saisons, wenn Sleeper es nicht automatisch tut
+export const historicalSeasonID = "1386063079745257472"; // Lass hier deine aktuelle ID stehen
+
 
 /*   STEP 2   */
 export const homepageText = `
